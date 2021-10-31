@@ -42,5 +42,4 @@ CREATE TABLE posts(
     user_id integer NOT NULL
 )
 
- ALTER TABLE users DROP COLUMN friends;
- alter table users add column no_of_friends integer DEFAULT NULL;
+ 
